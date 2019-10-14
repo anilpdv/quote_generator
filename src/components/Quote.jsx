@@ -40,12 +40,12 @@ const Quote = props => {
             </div>
           ) : (
             <div>
-              <p className="quote p-5 text-muted">
+              <p className="quote p-3 text-muted">
                 {quote.quote} <span className="author"> - {quote.author}</span>
               </p>
               <button onClick={changeQuote} className="btn btn-success ">
                 {' '}
-                quote
+                gen quote
               </button>
             </div>
           )}
